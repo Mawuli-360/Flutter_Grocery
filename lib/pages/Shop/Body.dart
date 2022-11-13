@@ -44,7 +44,7 @@ class Body extends StatelessWidget {
                     width: 2.w,
                   ),
                   Text(
-                    'HILDA HOSTEL, BRAHABOME',
+                    'HILDA HOSTEL, BRAHABEBOME',
                     style: TextStyle(
                         fontSize: 13.sp,
                         fontWeight: FontWeight.bold,

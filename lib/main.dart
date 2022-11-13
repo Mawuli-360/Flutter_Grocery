@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
-import 'package:groceries/Homepage/HomePage.dart';
+import 'package:groceries/Homepage/SplashScreen.dart';
 import 'package:sizer/sizer.dart';
 
 void main() {
@@ -16,7 +15,7 @@ class Grocery extends StatelessWidget {
     return Sizer(
       builder: ((context, orientation, deviceType) {
         return MaterialApp(
-          home: HomePage(),
+          home: SplashScreen(),
           theme: ThemeData(fontFamily: "Muli"),
           debugShowCheckedModeBanner: false,
         );

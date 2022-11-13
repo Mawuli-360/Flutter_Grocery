@@ -9,7 +9,7 @@ import 'package:sizer/sizer.dart';
 import 'package:groceries/constants.dart';
 
 class HomePage extends StatefulWidget {
-  HomePage({Key? key}) : super(key: key);
+ const HomePage({Key? key}) : super(key: key);
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -90,7 +90,7 @@ class _HomePageState extends State<HomePage> {
                   label: 'Favourite'),
               BottomNavigationBarItem(
                   icon: Icon(
-                    Icons.person,
+                    Icons.person_outline,
                     size: 3.h,
                   ),
                   label: 'Account'),
